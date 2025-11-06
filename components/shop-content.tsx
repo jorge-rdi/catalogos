@@ -125,7 +125,7 @@ export function ShopContent({ initialBrand, initialFieldType }: ShopContentProps
           }}
           showBrandFilter={!initialBrand}
         >
-          <div className="space-y-6">
+        <div className="space-y-6 mb-8">
             <ProductGrid products={products} />
 
             <Pagination
